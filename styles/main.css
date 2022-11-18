@@ -42,3 +42,248 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+h1{
+  font-family: "Poppins", sans-serif;
+  color: #F55D3A;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+h2{
+  font-family: "Lora",serif;
+  color: #4A4A4A;
+  font-weight: bold;
+  font-size: 3.2rem ;
+}
+h3{
+  font-family:"Poppins", sans-serif;
+  font-size: 2.8rem;
+  color: #24126A;
+}
+p{
+  font-family: "Lora",serif;
+  font-size: 18px;
+  color: #4A4A4A;
+}
+body{
+  font-size: 18px;
+}
+.container{
+  position: relative;
+  width: 1440px;
+  height: 2740px;
+  margin: 0 auto;
+}
+.cover{
+  width: 1240px;
+  margin: 0 auto;
+}
+.navbar{
+  justify-content: space-between;
+  margin: 64px auto 96px;
+  display: flex;
+}
+.navbar-logoname{
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem ;
+  color: #3D2892;
+  font-weight: bold;
+}
+.logo-span{
+  color: #F55D3A;
+}
+.link-navbar--menu{
+  color: #3D2892;
+  font-family: "Poppins",sans-serif;
+  margin: 0 12px;
+  display: inline-block;
+  font-size: 18px;
+
+}
+.link-navbar--menu a{
+  font-weight: bold;
+  color: #24126A;
+  text-decoration: none;
+}
+.hero--img{
+  width: 25%;
+  height: auto;
+  float: right;
+}
+.hero--subtitle{
+  width: 550px;
+  margin-bottom: 30px;
+}
+.hero--btn, input[type="submit"]{
+  font-family: "Poppins",sans-serif;
+  background: #24126A;
+  padding: 5px 20px 5px 20px;
+  margin-left: 0;
+  border: none;
+  text-decoration: none;
+  filter: drop-shadow(0px 5px 5px #3237A9);
+  color: #FFFAFB;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+
+}
+.hero-btn:hover,input[type="submit"]:hover{
+  background: #3D2892;
+  cursor: pointer;
+  text-decoration: none;
+}
+.stories--header{
+  text-align: center;
+  width: 25%;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 130px;
+
+}
+.stories-container{
+  display: grid;
+  grid-template-columns: 440px 1000px;
+}
+.stories--design{
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+}
+.stories-design--paramdam{
+  background-color: #F55D3A;
+  width: 150px;
+  height: 300px;
+  top: 66rem;
+  left: 29.5rem;
+}
+.image--paramdam{
+  margin-left: 200px;
+  width: 279px;
+  height: 324px;
+}
+.box-stories{
+  margin-left: 120px;
+  margin-bottom: 15rem;
+  width: 50%;
+}
+.box-stories--paramdam{
+  margin-bottom: 30px;
+}
+.sentence--paramdam{
+  margin-bottom: 20px;
+  width: 530px;
+}
+.readmore{
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+  color: #F55D3A;
+}
+.readmore:hover{
+  cursor: pointer;
+}
+.senyales--wrapper{
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+}
+.senyales--stories{
+  grid-column: 2;
+  grid-row: 1;
+}
+.stories-design--senyales{
+  background-color: #16E0E0;
+  width: 150px;
+  height: 300px;
+  top: 114.5rem;
+  right: 24.5rem;
+}
+.senyales--img{
+  margin-left: 100px;
+  width: 279px;
+  height: 324px;
+}
+.senyales-box{
+  grid-column: 1;
+  grid-row: 1;
+  width: 500px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+.senyales-box--paramdam{
+  margin-bottom: 30px;
+}
+.sentence--senyales{
+  margin-bottom: 20px;
+  width:500px;
+}
+.author--container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.author--figure{
+  text-align: center;
+}
+.image--size{
+  width: 181px;
+  height: 181px;
+}
+.author--name{
+  color: #F55D3A;
+  font-weight: bold;
+  margin: 25px;
+  margin-bottom: 25px;
+}
+.author--story{
+  font-family: "Lora", serif;
+  margin: 15px;
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 1200px; 
+  margin: 0px 140px 20px;
+  
+}
+.footer--header{
+  text-transform: none;
+  display: inline;
+  width: 45%;
+  
+}
+.footer--container{
+  display: inline;
+  margin-bottom: 30px;
+}
+.footer-input{
+  margin-left: 70px;
+  height: 45px;
+  margin-right: 2rem;
+  width: 25%;
+  
+}
+.footer--itc{
+  width: 40%;
+  font-family: 'Poppins', sans-serif;;
+  font-weight: bold;
+  padding-top: 20px;
+  align-items: center;
+  margin:auto;
+  color: #FFFAFB;
+  
+}
+
+.footer--img{
+  margin: 0;
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 1440px; 
+  z-index: -1;
+  
+}
+.footer-submit{
+  width: 110px;
+  height: 45px;
+}
